@@ -168,6 +168,7 @@ textarea {
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -177,7 +178,7 @@ html {
 }
 
 body {
-  background: #2e3842;
+  background: #455c50;
 }
 
 body.is-preload *,
@@ -2920,7 +2921,7 @@ button:disabled,
 }
 
 .wrapper.style1 {
-  background-color: #21b2a6;
+  background-color: #0f733f;
   color: #c8ece9;
 }
 
@@ -3086,12 +3087,12 @@ button:disabled,
 }
 
 .wrapper.style2 {
-  background-color: #2e3842;
+  background-color: #a4dbbf;
 }
 
 .wrapper.style3 {
-  background-color: #505393;
-  color: #d3d4e4;
+  background-color: #84b099;
+  color: #ffffff;
 }
 
 .wrapper.style3 strong,
@@ -3471,7 +3472,7 @@ button:disabled,
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #21b2a6;
+  background: #a4dbbf;
   color: #ffffff;
   height: 100%;
   max-width: 80%;
@@ -3561,7 +3562,7 @@ body.is-menu-visible #menu {
   -webkit-transition: background-color 0.2s ease;
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-  background: #2e3842;
+  background: #455c50;
   height: 3em;
   left: 0;
   line-height: 3em;
@@ -3805,7 +3806,7 @@ body.is-menu-visible #menu {
   -ms-transition-delay: 1.25s;
   transition-delay: 1.25s;
   content: '';
-  background: #2e3842;
+  background: #455c50;
   display: block;
   width: 100%;
   height: 100%;
@@ -4000,7 +4001,7 @@ body.is-mobile #main > header {
 
 #footer {
   padding: 6em 0 4em 0;
-  background-color: #1d242a;
+  background-color: #455c50;
   text-align: center;
 }
 
@@ -4100,7 +4101,7 @@ body.landing #page-wrapper {
 }
 
 body.landing #footer {
-  background-color: rgba(29, 36, 42, 0.9);
+  background-color: #455c50;
 }
 
 body.is-mobile.landing #page-wrapper {
@@ -4162,6 +4163,19 @@ p.footer-mentions {
 .wrapper.style6 {
   background-color: #ffffff;
   color: #ffffff;
+}
+
+.wrapper.style7 {
+  background-color: #455c50;
+  color: #455c50;
+  position: relative;
+}
+
+.wrapper.style7 iframe {
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 20em;
 }
 
 .contact-image {
