@@ -2779,7 +2779,8 @@ button:disabled,
 
 .spotlight .image img {
   border-radius: 0;
-  width: 100%;
+  width: 50%;
+  max-height: 50%;
 }
 
 .spotlight .content {
@@ -3926,21 +3927,21 @@ body.is-preload #banner:after {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4078,21 +4079,21 @@ body.landing #page-wrapper {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4115,21 +4116,21 @@ body.is-mobile.landing .wrapper.style4 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../../images/banner.jpg');
+    url('../../images/banner-intro.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4181,4 +4182,67 @@ p.footer-mentions {
 .contact-image {
   width: 100%;
   margin-bottom: -1em;
+}
+
+.wrapper.style8 {
+  background-color: #4e685b;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background: linear-gradient(to bottom left, #a4dbbf 40%, #84b099 100%);
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #a4dbbf 40%, #84b099 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+  text-align: justify;
+  margin-left: 1em;
+  margin-right: 1em;
 }
